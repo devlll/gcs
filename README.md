@@ -32,8 +32,8 @@ set -gx PATH  ~/google-cloud-sdk/bin  $PATH
 ### run the sample code,which is from official repo
 
 ```
-./gradlew run
+./gradlew run  -Pargs="procect-id action bucket"
 ```
 
-which shows how to run the code for various purposes, have fun. Clojure wrapper is coming next.
+
 
