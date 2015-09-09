@@ -551,7 +551,9 @@ public class StorageExample {
   }
 
   @SuppressWarnings("unchecked")
-  public static void main(String... args) throws Exception {
+  public static void main(String[] args) throws Exception {
+    System.out.println(args[0]);
+    System.out.println(args.length);
     if (args.length < 1) {
       System.out.println("Missing required project id and action");
       printUsage();
