@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.apis:google-api-services-datastore-protobuf:v1beta2-rev1-2.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-datastore-protobuf/v1beta2-rev1-2.1.2/4e68eb1b3e790fc6e6ef4b545aebbbee0b35ba54/google-api-services-datastore-protobuf-v1beta2-rev1-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-datastore-protobuf/v1beta2-rev1-2.1.2/713372bfc45efdcb117d81bdf8e05a4f6fb358fb/google-api-services-datastore-protobuf-v1beta2-rev1-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,23 @@
+group 'gcs'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+
+mainClassName = "stuff.StorageExample"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile ('joda-time:joda-time:2.8.2')
+    compile ('com.google.gcloud:gcloud-java:0.0.7')  {
+        exclude group: 'joda-time', module: 'joda-time' //by both name and group
+    }
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
